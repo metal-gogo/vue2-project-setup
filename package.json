@@ -1,7 +1,7 @@
 {
-  "name": "vue-cli-test",
-  "version": "1.0.0",
-  "description": "A Vue.js project",
+  "name": "gbmfondos-signup",
+  "version": "0.0.1",
+  "description": "Signup project for GBMfondos platform",
   "author": "Daniel González <d.g.g69@me.com>",
   "private": true,
   "scripts": {
@@ -14,8 +14,9 @@
   },
   "dependencies": {
     "axios": "0.15.3",
-    "gbmfondos-ui": "1.4.0",
+    "gbmfondos-ui": "^1.4.0",
     "vue": "2.1.10",
+    "vue-gtm": "1.0.0",
     "vue-router": "2.2.0",
     "vuex": "2.1.2"
   },
