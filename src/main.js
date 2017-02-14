@@ -4,7 +4,12 @@ import Vue from 'vue';
 import App from './App';
 import router from './router';
 
-import store from './store/store';
+// TODO: Update the use of Api and Store
+import api from './api/someApi';
+import store from './store/someStore';
+
+window.api = api;
+// TODO: Update the use of Api and Store
 
 /* eslint-disable no-new */
 new Vue({

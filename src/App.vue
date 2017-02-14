@@ -11,10 +11,9 @@ export default {
 };
 </script>
 
-<style lang="scss">
-@import "assets/scss/vendor-settings.scss";
-@import "../node_modules/gbmfondos-ui/src/styles/gbmfondos-ui.scss";
+<style src="./assets/scss/vendors.scss" lang="scss"></style>
 
+<style lang="scss">
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
